@@ -1,0 +1,63 @@
+body,
+html,
+div,
+img {
+	margin: 0;
+	padding: 0;
+}
+ a{
+ 	text-decoration:none;
+ }
+.box {
+	width: 560px;
+	margin: 200px auto;
+}
+.box .fl {
+	height: 26px;
+	margin-top: 10px;
+	padding:3px 6px;
+}
+.box .fl .movie{
+	cursor: pointer;
+	line-height: 26px;
+	padding: 2px;
+}
+.box .fl .movie.active{
+	border-top: 2px solid blue;
+	border-right: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	margin-top: -2px;
+}
+.con div{
+	width: 120px;
+	margin: 10px 10px;
+	float: left;
+}
+.con div img{
+	width: 120px;
+
+}
+.con div p{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.box .type .item{
+	padding: 2px;
+}
+.box .type .item.active{
+	background: #ccc;
+}
+.box .type span{
+	cursor: pointer;
+}
+.box .n{
+	text-align: center;
+}
+.box .n .num {
+	padding: 3px;
+	cursor:pointer;	
+}
+.box .num.active{
+	border: 1px solid #ccc;
+}
